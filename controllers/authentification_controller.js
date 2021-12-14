@@ -3,7 +3,7 @@ const User = require("../models/User");
 const jwt = require("jsonwebtoken");
 
 const register = async (req,res) =>{
-    console.log("inside controller")
+
     const user = new User(
         {
         username : req.body.username,
