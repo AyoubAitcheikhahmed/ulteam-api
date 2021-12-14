@@ -4,7 +4,7 @@ const {
     validateToken,
     validateTokenAuthorisation,
     validateTokenAdmin
-  } = require("./validateToken");
+  } = require("../middleware/validateToken");
 
 
 //aanmaken van een cart 
