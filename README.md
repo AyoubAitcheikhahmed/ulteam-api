@@ -9,9 +9,9 @@
 ### Table of Contents
 
 - [Description](#description)
-- [How To Use](#how-to-use)
-- [References](#references)
-- [License](#license)
+- [Built with](#built-with)
+- [Technologies](#Technologies)
+- [How to use](#how-to-use)
 - [Author Info](#author-info)
 
 ---
@@ -33,30 +33,46 @@
 
 ---
 
-## 🚀How To Use
+## 📚Technologies
 
-```cli
-yarn start
+- Express
+
+```console
+npm install express --no-save
+```
+
+- MongoDB
+
+```console
+$ npm install mongoose
+```
+
+- JWT
+
+```console
+$ npm install jsonwebtoken
+```
+
+- CORS
+
+```console
+$ npm install cors
+```
+
+- Colors
+
+```console
+$ npm install colors
 ```
 
 ---
 
-## Installation
+## How to use
 
-```cli
-npm install --save styled-components
-```
+after installing the dependencies, you can run the following command in the cli
 
-```cli
-yarn add @mui/icons-material
-```
-
-```cli
-npm install recharts
-```
-
-```cli
-npm install --save redux
+```console
+npm start
 ```
 
 ---
@@ -73,14 +89,10 @@ npm install --save redux
 
 ## 📝Extra Sources
 
-- Styled Components [@styledcomponents](https://styled-components.com/docs/basics)
-
-- React Form Validation [@Brian Design](https://youtu.be/KGFG-yQD7Dw)
+- RESTFULL API EXPRESS TUTO [@Anson the developer](https://www.youtube.com/watch?v=T2KjBiwYyBI&list=PL_cUvD4qzbkxZZyyuXa1xkWFhRB_NoQwl)
 - JWT tutorial [@lama](https://youtu.be/Yh5Lil03tpI)
-- Redux Toolkit [@pedrotech](https://youtu.be/k68j9xlbHHk)
-- React Form Validation [@Brian Design](https://youtu.be/KGFG-yQD7Dw)
-- JWT tutorial [@lama](https://youtu.be/Yh5Lil03tpI)
-- Redux Toolkit [@pedrotech](https://youtu.be/k68j9xlbHHk)
+- Seeding mongoDB with existing data [@programmingsfun](https://youtu.be/YtWUOQ0udrI)
+-
 
 [Back To The Top](#ulteam)
 
