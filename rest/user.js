@@ -5,7 +5,7 @@ const {
     validateTokenAuthorisation,
     validateTokenAdmin
   } = require("../middleware/validateToken");
-  const user_controller = require("../controllers/user_controller");
+  const user_controller = require("../service/user_controller");
 
 //verwerken van user
 router.put("/:id", validateTokenAuthorisation,user_controller.updateUser);

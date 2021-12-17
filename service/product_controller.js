@@ -34,6 +34,7 @@ const updateProduct = async (req, res) => {
 const deleteProduct = async (req, res) => {
 
     try{
+        
         const deletedPrd = Product.findById(req.params.id).title;
         await Product.findByIdAndDelete(req.params.id);
         res.status(200).json(deletedPrd);
@@ -56,10 +57,9 @@ const getSingleProduct = async (req, res) => {
 const getAllProducts = async (req, res) => {
     
     
-    if (req.query.new || req.query.cat ) {
+    
     const query = req.query.new;
     const queryCategory = req.query.cat;   
-    }
 
     try{
 

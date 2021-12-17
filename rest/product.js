@@ -4,7 +4,7 @@ const {
     validateTokenAuthorisation,
     validateTokenAdmin
   } = require("../middleware/validateToken");
-const product_controller = require("../controllers/product_controller");
+const product_controller = require("../service/product_controller");
 
 
 //aanmaken van een product 

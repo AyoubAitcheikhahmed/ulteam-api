@@ -11,7 +11,7 @@ const validateToken = (req, res, next) => {
         jwt.verify(token, process.env.JWT_KEY, (err, user) => {
 
             if(err) {
-                console.log("Token is niet Juist inside err");
+                console.log("Token is niet Juist");
                 res.status(403).json("Token is niet Juist");
             }
             req.user = user;
@@ -34,6 +34,7 @@ const validateTokenAuthorisation = (req, res, next) => {
 };
 
 const validateTokenAdmin = (req, res, next) => {
+
     validateToken(req, res, () => {
         if(req.user.admin){
             next();

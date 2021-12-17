@@ -1,0 +1,181 @@
+[
+    {
+
+        "title":"Battlefield 2040",
+        "userOwnership":"false",
+        "desc": "battle fps gfame with temates and assult rifles",
+        "image":"https://asset.vg247.com/battlefield_2042_keyart_wide_1.jpg/BROK",
+        "categories":["fps","action"],
+        "platform":["xb","pc"],
+        "price":"33"
+
+    },
+    {
+
+        "title":"Counter-Strike: Global Offensive",
+        "userOwnership":"false",
+        "desc": "The CS:GO team reviewed the amazing work from artists and teams from all parts of the globe, and decided that ten winners wouldn't be enough. So, an additional ...",
+        "image":"http://media.steampowered.com/apps/csgo/blog/images/fb_image.png?v=6",
+        "categories":["fps","action"],
+        "platform":["xb","pc","ps4"],
+        "price":"13"
+
+    },
+    {
+
+        "title":"warframe",
+        "userOwnership":"false",
+        "desc": "Ninjas Play Free. A third-person, co-op focused action game at its core, Warframe situates players as members of the Tenno race, newly awoken after years",
+        "image":"https://image.api.playstation.com/vulcan/ap/rnd/202011/2519/HLsWRYWFM5oIGLdJ8pwUqlPj.png",
+        "categories":["fps","action"],
+        "platform":["xb","pc"],
+        "price":"0"
+
+    },
+    {
+
+        "title":"Final Fantasy XIV",
+        "userOwnership":"false",
+        "desc": "Final Fantasy is de naam van een serie computerrollenspellen, vervaardigd door de Japanse spelsoftwarefabrikant Square.",
+        "image":"https://image.api.playstation.com/vulcan/img/cfn/113075PxnarzRek4cRpjrRWSpLfrcBd23B5e_Yj2azms6nWYKmySv4h3a22G5_R1CM4BQUmSRD6oOArDROKv041NUkgun78-.png",
+        "categories":["fps","action"],
+        "platform":["xb","pc"],
+        "price":"40"
+
+    },
+    {
+
+        "title":"assassin's creed valhala",
+        "userOwnership":"false",
+        "desc": "Assassin's Creed Valhalla is een action-adventurespel in ontwikkeld door Ubisoft Montreal. Het spel werd uitgegeven op 10 november 2020 door Ubisoft voor Microsoft Windows, PlayStation 4, Xbox One, Xbox Series X, en Stadia. Op 12 november 2020 werd het spel ook op PlayStation 5 speelbaar.",
+        "image":"https://image.api.playstation.com/vulcan/ap/rnd/202008/1318/8XGEPtD1xoasK0FYkYNcCn1z.png",
+        "categories":["rpg","action"],
+        "platform":["xbox","pc","ps4"],
+        "price":"44"
+
+    },
+    {
+
+        "title":"farcry 6",
+        "userOwnership":"false",
+        "desc": "Far Cry 6 is een first-person shooter ontwikkeld door Ubisoft Montreal en is gepubliceerd door Ubisoft Toronto, dat is uitgebracht op 7 oktober 2021. Het is het zesde spel uit de hoofdreeks van de Far Cry-",
+        "image":"https://s1.gaming-cdn.com/images/products/9147/orig/far-cry-6-xbox-one-series-xs-xbox-one-xbox-serie-x-s-spel-microsoft-store-cover.jpg",
+        "categories":["fps","action"],
+        "platform":["xbox","pc","ps5"],
+        "price":"68"
+
+    },
+    {
+
+        "title":"riders republic",
+        "userOwnership":"false",
+        "desc": "Riders Republic is a sports video game developed by Ubisoft Annecy and published by Ubisoft. The game was released for Microsoft Windows, PlayStation 4, PlayStation 5, Amazon Luna, Stadia, Xbox One, and Xbox Series X/S on October 28, 2021.",
+        "image":"https://cdn1.epicgames.com/83d6990f16444655866b04be562bf589/offer/MAD_STD_Store_Landscape_2560x1440-2560x1440-0d275f75a75f6367c373e727bc78b4d1.jpg",
+        "categories":["adventure","sport","racing"],
+        "platform":["xb","pc"],
+        "price":"33"
+
+    },
+    {
+
+        "title":"rayman",
+        "userOwnership":"false",
+        "desc": "Rayman is een platformspel met als hoofdpersoon Rayman die de wereld moet redden van Mr. Dark. Dit spel was nog in 2D",
+        "image":"https://image.api.playstation.com/vulcan/img/cfn/11307Z9XN_O53h3z8dzhLDWFmhcpl4Y45Ms7q_umAan-evdE_Iu5PV0C78dTkiFqlmh3-7rGSlUwH4mdinYtN_rxsL8WHssS.png",
+        "categories":["familyfree","fun","2d"],
+        "platform":["xbox","pc","ps4","nintendo"],
+        "price":"13"
+
+    },
+    {
+
+        "title":"anno 1880",
+        "userOwnership":"false",
+        "desc": "Anno 1800 combineert geliefde eigenschappen uit 20 jaar aan Anno-gameplay. Hij bevat een volwaardige stadssimulatie met een meeslepend verhaal, een persoonlijke",
+        "image":"https://i.ytimg.com/vi/7ZwaZMuc1TQ/maxresdefault.jpg",
+        "categories":["fps","action"],
+        "platform":["xb","pc"],
+        "price":"33"
+
+    },
+    {
+
+        "title":"tom clancy's ghost recon breakpoint",
+        "userOwnership":"false",
+        "desc": "Tom Clancy's Ghost Recon Breakpoint is een tactisch schietspel ontwikkeld door Ubisoft Paris. Het spel werd uitgebracht op 4 oktober 2019 voor Windows, PlayStation 4 en Xbox One. Op 18 December 2019 werd het spel uitgebracht voor Google Stadia.",
+        "image":"https://image.api.playstation.com/vulcan/img/rnd/202109/0713/yde6GT9WPbcAUL1QyqjumHs9.png",
+        "categories":["fps","action"],
+        "platform":["xbox","ps5","pc"],
+        "price":"80"
+
+    },
+    {
+
+        "title":"Rocket league",
+        "userOwnership":"false",
+        "desc": "Rocket League est un jeu vidéo développé et édité par Psyonix",
+        "image":"https://cdn1.epicgames.com/offer/9773aa1aa54f4f7b80e44bef04986cea/6609d2e1-62d9-4094-9cb7-26d9a7f5ba3f_2560x1440-071db7b0d39d5635f684940c1e3c4ec3",
+        "categories":["cars","sport","speed"],
+        "platform":["xbox","pc","nintendo","ps5"],
+        "price":"39"
+
+    },
+    {
+
+        "title":"Forza",
+        "userOwnership":"false",
+        "desc": "Your Ultimate Horizon Adventure awaits! Explore the vibrant and ever-evolving open world landscapes of Mexico",
+        "image":"https://images.frandroid.com/wp-content/uploads/2021/11/forza-horizon-5.jpg",
+        "categories":["sport","adventure","cars"],
+        "platform":["pc","xbox","ps"],
+        "price":"45"
+
+    },
+    {
+
+        "title":"Naraka bladepoint",
+        "userOwnership":"false",
+        "desc": "un jeu vidéo d'action-aventure de genre battle royale publié par NetEase en 2021",
+        "image":"https://www.global-esports.news/wp-content/uploads/2021/08/Naraka-Bladepoint-game-scaled.jpg",
+        "categories":["action","adventure"],
+        "platform":["xbox","pc","nintendo","ps5"],
+        "price":"89"
+
+    },
+    {
+
+        "title":"Hot wheels Unleashed",
+        "userOwnership":"false",
+        "desc": "Collect the best vehicles in the Hot Wheels™ universe, build spectacular tracks and dive into breathtaking races.",
+        "image":"https://conso-mag.com/wp-content/uploads/2021/10/image-21.png",
+        "categories":["cars","speed","racing"],
+        "platform":["xbox","pc"],
+        "price":"15"
+
+    },
+    {
+
+        "title":"World War Z: Aftermath",
+        "userOwnership":"false",
+        "desc": "the ultimate co-op zombie shooter inspired by Paramount Pictures’ blockbuster film, and the next evolution of the original hit World War Z that has now captivated over 15 million players.",
+        "image":"https://image.jeuxvideo.com/medias/162345/1623446340-1623-jaquette-avant.jpg",
+        "categories":["adventure","horor"],
+        "platform":["xbox","pc","nintendo","ps5"],
+        "price":"64"
+
+    },
+    {
+
+        "title":"World of Warships",
+        "userOwnership":"false",
+        "desc": "Experience epic combats when you helm one of over 350 historic vessels in the exciting balance of strategy and real-time combat that World of Warships offers",
+        "image":"https://cdn1.epicgames.com/84c76746bce94effb8e1047fabfd7eb7/offer/EGS_WorldofWarships_WargamingGroupLimited_S5-1920x1080-0e04d731de30455231f06f17d743360e.jpg",
+        "categories":["war","action"],
+        "platform":["xbox","ps"],
+        "price":"26"
+
+    }
+
+
+]
+

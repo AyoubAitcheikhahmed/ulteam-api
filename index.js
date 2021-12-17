@@ -1,31 +1,23 @@
 const express = require("express");
 const app = express();
-const mongoose = require("mongoose");
-const dotenv = require("dotenv")
+const db_connection = require("./config/mongo_db")
 const userRoute = require("./rest/user");
 const authentificationRoute = require("./rest/authentification");
 const productRoute = require("./rest/product");
 const cartRoute = require("./rest/cart");
 const orderRoute = require("./rest/order");
-const cors = require("cors")
-dotenv.config();
+const cors = require("cors");
+const path = require("path");
+
 
 
 // mongoose.connect(process.env.DATABASE_URL, { useNewUrlParser: true }); 
 // const db = mongoose.connection;
 // db.on("error", error => console.log(error));
 // db.once("open", () => console.log("connection to db established"));
-
-mongoose
-    .connect(process.env.MONGO_LINK)
-    .then(()=>console.log("DB SUCCESSULL"))
-    .catch((err) => {
-        console.log(err);
-    });
-
-
+db_connection();
+app.use(express.static(path.join(__dirname,'public')));
 app.use(cors());
-
 app.use(express.json());
 //This is a built-in middleware function in Express.
 //It parses incoming requests with JSON payloads and is based on body-parser.
@@ -37,7 +29,13 @@ app.use("/api/products",productRoute);
 app.use("/api/cart",cartRoute);
 app.use("/api/orders",orderRoute);
 
-app.listen(process.env.PORT || 6000, () => {
-    console.log('backend server running');
+try{
+ app.listen(process.env.PORT || 6000, () => {
+    console.log('*** ✅ BACKEND RUNNING SUCCESSFULLY ...');
 
-});
+});   
+}catch(err)
+{
+    console.log("Something went wrong Runing the server !")
+    return res.status(500).json("Somthing Went wrong initialising the Server !")
+}
