@@ -13,3 +13,14 @@ const Product_schema = new mongoose.Schema({
 );
 
 module.exports = mongoose.model("Product", Product_schema);
+/** 
+ * 
+ * /:
+ *   post: 
+ *     description: Get all Employee by Email
+ *     responses:  
+ *       200: 
+ *         description: Success  
+ *   
+ */
+

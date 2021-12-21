@@ -8,7 +8,8 @@ const cartRoute = require("./rest/cart");
 const orderRoute = require("./rest/order");
 const cors = require("cors");
 const path = require("path");
-
+const swaggerUI = require("swagger-ui-express");
+const swaggerJsDoc = require("swagger-jsdoc");
 
 
 // mongoose.connect(process.env.DATABASE_URL, { useNewUrlParser: true }); 
@@ -39,3 +40,23 @@ try{
     console.log("Something went wrong Runing the server !")
     return res.status(500).json("Somthing Went wrong initialising the Server !")
 }
+
+const options = {
+    definition: {
+        openapi: "3.0.0",
+        info:{
+            title:"Ulteam API",
+            version:"1.0.0",
+            description:"Gaming distribution platform API",
+        },
+        servers:[
+            {
+                url:"http://ulteam-frontend.herokuapp.com/"
+            }
+        ]
+    },
+    apis:["./rest/*.js"]
+};
+
+const specs = swaggerJsDoc(options);
+app.use("/api-docs",swaggerUI.serve, swaggerUI.setup(specs))
