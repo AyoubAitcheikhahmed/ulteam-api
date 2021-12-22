@@ -34,10 +34,12 @@ const validateTokenAuthorisation = (req, res, next) => {
 };
 
 const validateTokenAdmin = (req, res, next) => {
-
+    
+    console.log(req.headers)
     validateToken(req, res, () => {
         if(req.user.admin){
-            next();
+           
+        next();
         }else{
             res.status(403).json("Enkel een beheerder is toegelaten ! ")
         }

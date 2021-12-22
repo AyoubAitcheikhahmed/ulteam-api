@@ -32,9 +32,9 @@ const updateProduct = async (req, res) => {
   }
 
 const deleteProduct = async (req, res) => {
-
+    console.log("inside ######")
     try{
-        
+       
         const deletedPrd = Product.findById(req.params.id).title;
         await Product.findByIdAndDelete(req.params.id);
         res.status(200).json(deletedPrd);
