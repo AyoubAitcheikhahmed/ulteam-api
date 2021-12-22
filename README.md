@@ -64,6 +64,11 @@ $ npm install cors
 ```console
 $ npm install colors
 ```
+- SWAGGER
+
+```console
+$ npm install swagger-ui swagger-express
+```
 
 ---
 
