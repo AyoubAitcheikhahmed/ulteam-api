@@ -70,9 +70,7 @@ const product_controller = require("../service/product_controller");
  *       500: 
  *         description: Failed creating instance
  */ 
-
-
-router.post("/",validateTokenAdmin,product_controller.createProduct);
+router.post("/",product_controller.createProduct);
 
 
 /** 

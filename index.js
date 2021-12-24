@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const db_connection = require("./config/mongo_db")
+const mongo_db = require("./config/mongo_db");
 const userRoute = require("./rest/user");
 const authentificationRoute = require("./rest/authentification");
 const productRoute = require("./rest/product");
@@ -16,7 +16,7 @@ const swaggerJsDoc = require("swagger-jsdoc");
 // const db = mongoose.connection;
 // db.on("error", error => console.log(error));
 // db.once("open", () => console.log("connection to db established"));
-db_connection();
+mongo_db.db_connection();
 app.use(express.static(path.join(__dirname,'public')));
 app.use(cors());
 app.use(express.json());
@@ -24,22 +24,31 @@ app.use(express.json());
 //It parses incoming requests with JSON payloads and is based on body-parser.
 //This will allow our servers to allow incoming .json file format.
 
+
+
+
+
+    try{
+     app.listen(process.env.PORT || 6000, () => {
+        console.log('*** ✅ BACKEND RUNNING SUCCESSFULLY ...');
+    
+    });   
+    }catch(err)
+    {
+        console.log("Something went wrong Runing the server !")
+        return res.status(500).json("Somthing Went wrong initialising the Server !")
+    }
+
+
 app.use("/api/users",userRoute);
 app.use("/api/authentification",authentificationRoute);
 app.use("/api/products",productRoute);
 app.use("/api/cart",cartRoute);
 app.use("/api/orders",orderRoute);
 
-try{
- app.listen(process.env.PORT || 6000, () => {
-    console.log('*** ✅ BACKEND RUNNING SUCCESSFULLY ...');
-
-});   
-}catch(err)
-{
-    console.log("Something went wrong Runing the server !")
-    return res.status(500).json("Somthing Went wrong initialising the Server !")
-}
+// app.post("/api/products", (req,res)=>{
+//     console.log("inside post ")
+// })
 
 const options = {
     definition: {
@@ -60,3 +69,5 @@ const options = {
 
 const specs = swaggerJsDoc(options);
 app.use("/api-docs",swaggerUI.serve, swaggerUI.setup(specs))
+
+module.exports = app
