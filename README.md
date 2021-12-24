@@ -38,31 +38,31 @@
 - Express
 
 ```console
-npm install express --no-save
+$npm install express --no-save
 ```
 
 - MongoDB
 
 ```console
-$ npm install mongoose
+$npm install mongoose
 ```
 
 - JWT
 
 ```console
-$ npm install jsonwebtoken
+$npm install jsonwebtoken
 ```
 
 - CORS
 
 ```console
-$ npm install cors
+$npm install cors
 ```
 
 - Colors
 
 ```console
-$ npm install colors
+$npm install colors
 ```
 - CryptoJS
 
@@ -77,7 +77,7 @@ $npm install crypto-js
 after installing the dependencies, you can run the following command in the cli
 
 ```console
-npm start
+$npm start
 ```
 
 ---
