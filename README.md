@@ -12,7 +12,9 @@
 - [Built with](#built-with)
 - [Technologies](#Technologies)
 - [How to use](#how-to-use)
-- [Author Info](#author-info)
+- [API Reference](#api-reference)
+- [Extra Sources](#extra-sources)
+- [Author Info](#author-info)**
 
 ---
 
