@@ -14,7 +14,7 @@
 - [How to use](#how-to-use)
 - [API Reference](#api-reference)
 - [Extra Sources](#extra-sources)
-- [Author Info](#author-info)**
+- [Author Info](#author-info)
 
 ---
 
