@@ -64,6 +64,11 @@ $ npm install cors
 ```console
 $ npm install colors
 ```
+- CryptoJS
+
+```console
+$npm install crypto-js
+```
 
 ---
 
@@ -79,9 +84,7 @@ npm start
 
 ## API Reference
 
-```html
-<p>Link to API SWAGGER</p>
-```
+- Link to API DOCS [@swaggerapi](https://ulteam-api.herokuapp.com/api-docs/)
 
 [Back To The Top](#ulteam)
 
