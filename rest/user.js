@@ -123,6 +123,7 @@ router.get("/find/:id",validateTokenAdmin ,user_controller.getSingleUser);
  */
 router.get("/" ,validateTokenAdmin ,user_controller.getAllUsers);
 
+router.post("/register" ,user_controller.createUser);
 
 
 // //TODO
