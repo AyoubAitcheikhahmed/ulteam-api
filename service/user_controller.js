@@ -6,6 +6,15 @@ const {
   } = require("../middleware/validateToken");
 
 
+const createUser = async (req,res) =>{
+  const user = new User(req.body)
+  try{
+      const newUser = await user.save();
+      res.status(200).json(newUser)
+  }catch(err){
+      res.status(500).json(err)
+  }
+}
 const updateUser = async (req, res) => {
 
     if (req.body.password) {
@@ -65,6 +74,7 @@ const getAllUsers = async (req, res) => {
   }
 
 module.exports = {
+    createUser,
     updateUser,
     deleteUser,
     getSingleUser,
