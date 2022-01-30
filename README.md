@@ -66,6 +66,7 @@ $npm install cors
 ```console
 $npm install colors
 ```
+<<<<<<< HEAD
 - CryptoJS
 
 ```console
@@ -74,6 +75,13 @@ $npm install crypto-js
 
 
 [Back To The Top](#ulteam)
+=======
+- SWAGGER
+
+```console
+$ npm install swagger-ui swagger-express
+```
+>>>>>>> e6bd945203881910361fc2951977765cedb4b826
 
 ---
 
