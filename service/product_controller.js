@@ -5,6 +5,8 @@ const {
     validateTokenAdmin
   } = require("../middleware/validateToken");
 
+
+
 const createProduct = async (req,res) =>{
     const product = new Product(req.body)
     try{
@@ -55,7 +57,7 @@ const getSingleProduct = async (req, res) => {
 }
 
 const getAllProducts = async (req, res) => {
-    
+    console.log("inside ######")
     
     
     const query = req.query.new;

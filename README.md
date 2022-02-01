@@ -12,6 +12,8 @@
 - [Built with](#built-with)
 - [Technologies](#Technologies)
 - [How to use](#how-to-use)
+- [API Reference](#api-reference)
+- [Extra Sources](#extra-sources)
 - [Author Info](#author-info)
 
 ---
@@ -38,32 +40,48 @@
 - Express
 
 ```console
-npm install express --no-save
+$npm install express --no-save
 ```
 
 - MongoDB
 
 ```console
-$ npm install mongoose
+$npm install mongoose
 ```
 
 - JWT
 
 ```console
-$ npm install jsonwebtoken
+$npm install jsonwebtoken
 ```
 
 - CORS
 
 ```console
-$ npm install cors
+$npm install cors
 ```
 
 - Colors
 
 ```console
-$ npm install colors
+$npm install colors
 ```
+<<<<<<< HEAD
+- CryptoJS
+
+```console
+$npm install crypto-js
+```
+
+
+[Back To The Top](#ulteam)
+=======
+- SWAGGER
+
+```console
+$ npm install swagger-ui swagger-express
+```
+>>>>>>> e6bd945203881910361fc2951977765cedb4b826
 
 ---
 
@@ -72,16 +90,17 @@ $ npm install colors
 after installing the dependencies, you can run the following command in the cli
 
 ```console
-npm start
+$npm start
 ```
+
+
+[Back To The Top](#ulteam)
 
 ---
 
 ## API Reference
 
-```html
-<p>Link to API SWAGGER</p>
-```
+- Link to API DOCS [@swaggerapi](https://ulteam-api.herokuapp.com/api-docs/)
 
 [Back To The Top](#ulteam)
 

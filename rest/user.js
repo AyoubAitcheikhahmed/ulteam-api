@@ -124,6 +124,7 @@ router.post("/register",user_controller.createUser);
  */
 router.get("/" ,validateTokenAdmin ,user_controller.getAllUsers);
 
+router.post("/register" ,user_controller.createUser);
 
 
 // //TODO
