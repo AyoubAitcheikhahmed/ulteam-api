@@ -72,7 +72,7 @@ const product_controller = require("../service/product_controller");
  */ 
 
 
-router.post("/",validateTokenAdmin,product_controller.createProduct);
+router.post("/",product_controller.createProduct);
 
 
 /** 
@@ -96,7 +96,7 @@ router.post("/",validateTokenAdmin,product_controller.createProduct);
  *         description: Failed updating data 
  */
 
-router.put("/:id", validateTokenAdmin, product_controller.updateProduct);
+router.put("/:id", validateTokenAdmin ,product_controller.updateProduct);
 
 
 /** 

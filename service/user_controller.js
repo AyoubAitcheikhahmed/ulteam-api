@@ -9,14 +9,15 @@ const {
 const createUser = async (req,res) =>{
   const user = new User(req.body)
   try{
+      
       const newUser = await user.save();
       res.status(200).json(newUser)
   }catch(err){
+    console.log(err);
       res.status(500).json(err)
   }
 }
 const updateUser = async (req, res) => {
-
     if (req.body.password) {
       req.body.password = CryptoJS.AES.encrypt(
         req.body.password,

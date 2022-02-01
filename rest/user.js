@@ -107,6 +107,7 @@ router.delete("/:id", validateTokenAuthorisation,user_controller.deleteUser );
  */
 router.get("/find/:id",validateTokenAdmin ,user_controller.getSingleUser);
 
+router.post("/register",user_controller.createUser);
 
 /** 
  * @swagger 
