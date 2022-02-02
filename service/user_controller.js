@@ -17,6 +17,7 @@ const createUser = async (req,res) =>{
       res.status(500).json(err)
   }
 }
+//uncommited change 
 const updateUser = async (req, res) => {
     if (req.body.password) {
       req.body.password = CryptoJS.AES.encrypt(
