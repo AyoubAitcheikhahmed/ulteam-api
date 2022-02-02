@@ -94,9 +94,9 @@ router.post("/",product_controller.createProduct);
  *         description: Failed updating data 
  */
 
-router.put("/:id", validateTokenAdmin, product_controller.updateProduct);
+router.put("/:id", validateTokenAdmin ,product_controller.updateProduct);
 
-
+//uncommited yet  
 /** 
  * @swagger 
  * /products/{id}:

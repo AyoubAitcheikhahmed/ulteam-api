@@ -27,6 +27,7 @@ const updateProduct = async (req, res) => {
         },
         { new: true }
       );
+
       res.status(200).json(updatedPrd);
     } catch (err) {
       res.status(500).json(err);
@@ -34,7 +35,6 @@ const updateProduct = async (req, res) => {
   }
 
 const deleteProduct = async (req, res) => {
-    console.log("inside ######")
     try{
        
         const deletedPrd = Product.findById(req.params.id).title;

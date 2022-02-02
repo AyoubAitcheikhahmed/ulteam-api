@@ -35,8 +35,8 @@ const validateTokenAuthorisation = (req, res, next) => {
 
 const validateTokenAdmin = (req, res, next) => {
     
-    console.log(req.headers)
     validateToken(req, res, () => {
+
         if(req.user.admin){
            
         next();
